@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+  background-color: #020;
+
+}
+
+#app {
+  margin: 0 auto;
+  text-align: center;
+  font-variant: small-caps;
+  font-family: monospace;
+  font-size: 1vi;
+  color: lightgreen;
+  text-shadow: 0 0 1px lightgreen;
+}
+
+#textRenderer {
+  background-color: #010;
+  width: 100%;
+  border: 1px solid green;
+  border-radius: 10px;
+  filter: blur(0.05vi);
+  cursor: crosshair;
+  user-select: none;
+  box-shadow: 0.01vi 0.01vi 0.2vi lightgreen;
+}
